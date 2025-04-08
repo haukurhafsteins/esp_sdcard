@@ -1,4 +1,4 @@
 idf_component_register(SRCS "sdcard.cpp"
                     INCLUDE_DIRS "include"
-                    REQUIRES vfs
+                    REQUIRES fatfs
                     PRIV_REQUIRES)

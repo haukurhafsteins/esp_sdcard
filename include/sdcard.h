@@ -1,3 +1,4 @@
 #pragma once
 #include <driver/spi_common.h>
-void sdcard_init(spi_host_device_t host_device, const char* mount_point);
+#include <driver/gpio.h>
+void sdcard_init(spi_host_device_t host_device, gpio_num_t cs, const char* MOUNT_POINT);
