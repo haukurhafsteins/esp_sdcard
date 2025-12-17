@@ -1,1 +1,3 @@
-# esp_sdcard
+# SD Card Library
+
+This library handles SD cards.
